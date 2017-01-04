@@ -1,0 +1,8 @@
+Das Programm erstellt eine Lego-Teileliste um ein Mosaik zu erstellen:
+
+Zum Bauen wird sdl2-image, scons und ein c++14 fähiger Compiler benötigt.
+Eine eps-Datei zur Visualisierung wird nach stdout geschrieben,
+die Liste der Teile nach stderr.
+
+Falls zu wenig Speicher vorhanden ist, hilft es, die Bildgröße in Zeile 13
+und 14 zu reduzieren.
